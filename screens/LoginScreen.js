@@ -35,7 +35,7 @@ export default function LoginScreen() {
         <View className="flex-1 bg-white" style={{ backgroundColor: themeColors.bg }}>
             <SafeAreaView className="flex">
                 <View className="flex-row justify-start">
-                    <TouchableOpacity onPress={() => navigation.goBack()} className="p-2 rounded-tr-2xl rounded-bl-2xl ml-4">
+                    <TouchableOpacity onPress={() => navigation.navigate('Home')} className="p-2 rounded-tr-2xl rounded-bl-2xl ml-4">
                         <ArrowLeftIcon size="20" color="black" />
                     </TouchableOpacity>
                 </View>
